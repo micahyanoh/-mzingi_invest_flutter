@@ -97,3 +97,17 @@ firebase-adminsdk-*.json
 # =========================
 *.log
 
+
+# Firebase
+.firebase/
+.firebaserc
+firebase.json
+firestore.rules
+firestore.indexes.json
+lib/firebase_options.dart
+
+# FlutterFire platform config
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+
