@@ -43,3 +43,57 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# =========================
+# IDE
+# =========================
+.idea/
+*.iml
+.vscode/
+
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# =========================
+# Firebase
+# =========================
+.firebase/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Android signing keys
+# =========================
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+
+# =========================
+# Apple signing
+# =========================
+*.p12
+*.p8
+*.mobileprovision
+
+# =========================
+# Service Accounts
+# =========================
+serviceAccountKey.json
+firebase-adminsdk-*.json
+
+# =========================
+# Logs
+# =========================
+*.log
+
